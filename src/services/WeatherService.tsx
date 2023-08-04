@@ -1,5 +1,4 @@
-
-const API_KEY = '98659dab928bf9c6a76a2205ff1b03ee';
+import {API_KEY} from '../API_KEY'
 
 export const fetchWeatherData = (city: string): Promise<any> => {
     return fetch(
