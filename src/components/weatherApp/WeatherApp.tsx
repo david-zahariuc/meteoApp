@@ -3,8 +3,6 @@ import SearchForm from '../searchForm/SearchForm';
 import WeatherDisplay from '../weatherDisplay/WeatherDisplay';
 import { fetchWeatherData } from '../../services/WeatherService';
 
-const API_KEY = '98659dab928bf9c6a76a2205ff1b03ee';
-
 const WeatherApp: React.FC = () => {
     const [weatherData, setWeatherData] = useState(null);
 
